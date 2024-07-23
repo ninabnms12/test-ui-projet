@@ -97,9 +97,9 @@ class _loginpageState extends State<loginpage> {
                           focusedBorder: OutlineInputBorder(
                             borderSide: BorderSide(
                                 color: Colors.transparent,
-                                width: 0.0), // لون الإطار عند التركيز
+                                width: 0.0), 
                             borderRadius: BorderRadius.circular(
-                                20.0), // زوايا دائرية للإطار
+                                20.0), 
                           ),
                         ),
                       ),
