@@ -102,9 +102,9 @@ class _registerpageState extends State<registerpage> {
                           focusedBorder: OutlineInputBorder(
                             borderSide: BorderSide(
                                 color: Colors.transparent,
-                                width: 0.0), // لون الإطار عند التركيز
+                                width: 0.0), 
                             borderRadius: BorderRadius.circular(
-                                20.0), // زوايا دائرية للإطار
+                                20.0), 
                           ),
                         ),
                       ),
@@ -209,8 +209,8 @@ class _registerpageState extends State<registerpage> {
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
                     side: BorderSide(
-                      color: Color.fromARGB(255, 166, 23, 202), // لون الإطار
-                      width: 1, // سمك الإطار
+                      color: Color.fromARGB(255, 166, 23, 202), 
+                      width: 1, 
                     ),
                     disabledForegroundColor: Color.fromARGB(255, 166, 23, 202),
                     minimumSize: Size(double.infinity, 50),
